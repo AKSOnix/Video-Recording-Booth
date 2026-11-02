@@ -1,0 +1,8 @@
+<Settings>
+  <videobooth TransitionTime="0.5" RecordingTime="120" CountDown="5" FinalTimeout="5" TopicsPadding="20" FFmpegCommand="-i tcp://0.0.0.0:6618?listen -threads 0 -y -hide_banner " CameraRotation="0" MinVolume="0.3" MaxVolume="1" HostAddress="192.168.102.207" HostPort="6617" MaxRecTime="60" WallSide="Left"/>
+  <couchdb Host="192.168.101.226" Database="bypc" User="bypc" Password="bypc"/>
+  <lutron Host="192.168.102.221" EndChar="13" Port="1025"/>
+  <interaction Timeout="60" MouseReset="true"/>
+  <resources Default="true" UserPath="C:\Users\BeeINSIGHT\Desktop\BYPC Tests\FR_AV03 Video Recording Booth Tablet_20150918\release\resources\"/>
+  <system MouseVisible="true" DebugMode="false" TopMost="true"/>
+</Settings>
