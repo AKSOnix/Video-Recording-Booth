@@ -1,0 +1,19 @@
+.attractLoopAppTitle{
+	fontFamily: linotype;
+	font-size:52px;
+	line-height: 52px;
+	letter-spacing:1;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color:#696768;
+}
+
+.attractLoopTapToStart{
+	fontFamily: linotype;
+	font-size:31px;
+	line-height: 31px;
+	letter-spacing:1;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color:#646464;
+}

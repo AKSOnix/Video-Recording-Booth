@@ -1,0 +1,35 @@
+<!--
+
+In this xml you can configure
+
+A)	inactiveSecondsToAttractloop:	how long does the timer run till we show the attractloop
+
+B)	inactiveSecondsToResetApp:	both for performance reasons and to allow users to return quickly to where they where in the app, we send a resetApp notification after this X seconds,
+so we don't reset the app -if we need to, until a few seconds have passed after turning the attractloop ON.
+
+C)	autoStart: whether the app starts with the attractloop running
+
+D)	disableCompletely: if we want to not use the attractloop at all, for debugging
+
+E)	Application and attractloop animations (in and out) durations
+
+
+-->
+		<attractloop>
+			<appName>
+				<ru><![CDATA[<p class="attractLoopAppTitle">Запишите видео</p>]]></ru>
+				<en><![CDATA[<p class="attractLoopAppTitle">Record a Video</p>]]></en>
+			</appName>
+			<tapToStart>
+				<ru><![CDATA[<p class="attractLoopTapToStart">Дотроньтесь, чтобы начать.</p>]]></ru>
+				<en><![CDATA[<p class="attractLoopTapToStart">Tap to Start</p>]]></en>
+			</tapToStart>
+			<attractLoop_ON_animation_IN>1</attractLoop_ON_animation_IN>
+			<attractLoop_OFF_animation_OUT>1</attractLoop_OFF_animation_OUT>
+			<inactiveSecondsToAttractloop>180</inactiveSecondsToAttractloop>
+			<inactiveSecondsToResetApp>4</inactiveSecondsToResetApp>
+			<autoStart>true</autoStart>
+			<disableCompletely>false</disableCompletely>
+			<appAnim _in="1.2" _out="1"/>
+			<loopAnim _in="1" _out="1.2"/>
+		</attractloop>
